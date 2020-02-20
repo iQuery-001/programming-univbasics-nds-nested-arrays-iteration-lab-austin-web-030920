@@ -25,8 +25,8 @@ def find_greater_pair(src)
     largest = src[count][0]
       if src[count][1] > largest
         largest = src[count][1]
-        larger_numbers << largest
       end
+      larger_numbers << largest
     count += 1
   end
   larger_numbers
